@@ -39,8 +39,7 @@ RealView는 이 문제를 해결하기 위해 **RAG(Retrieval-Augmented Generati
 
 #### RealView 시스템 구성도
 
-mermaid
-graph TD
+ graph TD
     A[사용자/모바일/웹] -->|질의| B(프론트엔드: Vue.js);
     B -->|API 요청| C(백엔드: FastAPI Server);
     C -->|분류/요청| D{데이터 처리 및 RAG 모듈};
